@@ -1,0 +1,65 @@
+.wall {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.wall_image > img {
+  width: 100%;
+}
+
+.wall_top {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 10px;
+}
+
+.wall_avatar {
+  margin-right: 10px;
+}
+
+.wall_topInfo > h3 {
+  font-size: medium;
+}
+
+.wall_topInfo > p {
+  font-size: small;
+  color: gray;
+}
+
+.wall_bottom {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px 60px;
+}
+
+.wall_options {
+  padding-top: 5px;
+  border-top: 2px rgba(220, 235, 253, 0.253);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.wall_option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  flex: 1;
+}
+
+.wall_option > p {
+  margin-left: 10px;
+}
+
+.wall_option:hover {
+  background-color: rgba(220, 221, 221, 0.87);
+  border-radius: 15px;
+}
